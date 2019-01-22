@@ -28,5 +28,7 @@ response.json()
 
 Get model parameters
 
+```python
 response = requests.get("{}/getParameters".format("http://127.0.0.1:5000"))
 response.json()
+```
